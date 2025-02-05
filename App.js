@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-      <Text>Another text</Text>
+      <Text style={styles.textText}>Another text</Text>
       </View>
-      <Text style={{color: 'red', margin: 20, borderWidth: 2, borderColor: 'green'}}>
+      <Text style={styles.textText}>
         Lalalala
         </Text>
       <Button title="Press me" onPress={() => alert('Button pressed')} />
@@ -26,4 +26,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textText: {
+    color: 'red',
+    margin: 20,
+    borderWidth: 2,
+    borderColor: 'green',
+    padding: 16
+  }
 });
