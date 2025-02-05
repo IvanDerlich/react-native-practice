@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <View>
+      <Text>Another text</Text>
+      </View>
       <Text style={{color: 'red'}}>
-        Lalalala2222111333344455
+        Lalalala
         </Text>
+      <Button title="Press me" onPress={() => alert('Button pressed')} />
       <StatusBar 
         style="auto" 
       // barStyle="light-content" backgroundColor="blue"
