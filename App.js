@@ -7,7 +7,7 @@ export default function App() {
       <View>
       <Text>Another text</Text>
       </View>
-      <Text style={{color: 'red'}}>
+      <Text style={{color: 'red', margin: 20, borderWidth: 2, borderColor: 'green'}}>
         Lalalala
         </Text>
       <Button title="Press me" onPress={() => alert('Button pressed')} />
